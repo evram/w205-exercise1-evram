@@ -1,0 +1,8 @@
+The best way to rank the states would be:
+1. for each procedure type calculate the mean and the SD.
+2. Using the mean and the the SD, calcualte the z score for each specific procerdure done
+3. For each state Average out the z scores for all procedures done in that state
+
+This methodolgy would normalize the data so that statesaren't penalized for executing procedures which are typically lower scored (and vice versa)
+
+Since I feel that I do not have the tools to execure this algorithm, I instead used an average

@@ -1,0 +1,8 @@
+The best way to rank the hospitals would be:
+1. for each procedure type calculate the mean and the SD.
+2. Using the mean and the the SD, calcualte the z score for each specific procerdure done
+3. For each hospital, Average out the z scores for all procedures done in that hospital.
+
+This methodolgy would normalize the data so that hospitals aren't penalizedfor executing procedures which are typically lower scored.
+
+Since I do not have th tools to execure this algorithm, I instead used a simple average
